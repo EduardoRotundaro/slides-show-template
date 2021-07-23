@@ -1,7 +1,14 @@
 {
   "name": "slides-show",
-  "version": "0.1.0",
+  "author": "Eduardo Henrique Rotundaro",
+  "version": "0.0.1",
+  "homepage": "https://eduardorotundaro.github.io/slides-show-template",
+  "description": "Template to make slides, made with React.js.",
   "private": true,
+  "keywords": [
+    "react",
+    "slides"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
