@@ -1,18 +1,20 @@
 import { FC, ReactNode } from 'react';
 
+import { Cont } from './styles';
+
 type PropsType = {
   children?: ReactNode,
+  className?: string,
 };
-
-import { Cont } from './styles';
 
 const Container: FC<PropsType> = function (props) {
   const {
     children,
+    className,
   } = props;
 
   return (
-    <Cont>
+    <Cont className={className || ''}>
       {children}
     </Cont>
   );

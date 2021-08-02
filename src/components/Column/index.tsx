@@ -1,18 +1,24 @@
 import { FC, ReactNode } from 'react';
 
+import { Col } from './styles';
+
 type PropsType = {
   children?: ReactNode,
+  common?: string,
+  lg?: string,
+  className?: string,
 };
-
-import { Col } from './styles';
 
 const Column: FC<PropsType> = function (props) {
   const {
     children,
+    className,
+    common,
+    lg,
   } = props;
 
   return (
-    <Col>
+    <Col className={className || ''} common={common} lg={lg}>
       {children}
     </Col>
   );

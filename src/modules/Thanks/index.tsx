@@ -1,19 +1,21 @@
 import { FC } from 'react';
 
-type PropsType = {
-};
+import { ContentType } from '../../data/types';
 
 import { Module } from './styles';
-
 import Section from '../../components/Section';
 import Container from '../../components/Container';
 
+type PropsType = {
+  content: ContentType,
+};
+
 const Thanks: FC<PropsType> = function (props) {
-  const {} = props;
+  const { content } = props;
 
   return (
     <Module>
-      <Section>
+      <Section background={content.background}>
         <Container>
         </Container>
       </Section>

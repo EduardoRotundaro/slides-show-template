@@ -12,6 +12,8 @@ export const AUTHOR_EMAIL: ConstantType = 'eduardorotundaro@gmail.com';
 
 export const AUTHOR_LOCATION: ConstantType = 'Minas Gerais, Brasil';
 
-export const MATERIAL_DATE: ConstantType = 'Setembro/2021';
+export const CONTENT_NAME: ConstantType = 'Mussum Ipsum';
+
+export const CONTENT_DATE: ConstantType = 'Setembro/2021';
 
 export const PROJECT_REPOSITORY: ConstantType = 'https://github.com/EduardoRotundaro/';

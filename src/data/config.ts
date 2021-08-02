@@ -6,11 +6,11 @@ export const APP_VERSION: ConstantType = packageInfos.version;
 
 export const THEME: ComponentsThemeType = {
   colors: {
-    theme1: '#564138',
-    theme2: '#2E86AB',
-    theme3: '#F6F5AE',
-    theme4: '#F5F749',
-    theme5: '#F24236',
+    theme1: '#ECA400',
+    theme2: '#EAF8BF',
+    theme3: '#006992',
+    theme4: '#27476E',
+    theme5: '#001D4A',
     white: '#FDFEFE',
     gray: '#ECF0F1',
     black: '#17202A',
@@ -20,6 +20,10 @@ export const THEME: ComponentsThemeType = {
     secondary: 'Tahoma, sans-serif',
   },
   breakpoints: {
+    small: '576px',
+    medium: '768px',
     large: '992px',
+    extraLarge: '1224px',
+    fullHD: '1824px',
   },
 };

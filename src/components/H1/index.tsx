@@ -1,10 +1,10 @@
 import { FC } from 'react';
 
+import { Heading1 } from './styles';
+
 type PropsType = {
   children: string,
 };
-
-import { Heading1 } from './styles';
 
 const H1: FC<PropsType> = function (props) {
   const {

@@ -16,7 +16,11 @@ export type ComponentsThemeType = {
     secondary: string,
   },
   breakpoints: {
+    small: string,
+    medium: string,
     large: string,
+    extraLarge: string,
+    fullHD: string,
   },
 };
 
@@ -24,8 +28,11 @@ export type ConstantType = string;
 
 type SlideTypes = 'about' | 'attachment' | 'chapter' | 'cover' | 'media' | 'plainText' | 'references' | 'summary' | 'thanks';
 
-type ContentType = {
+type BackgroundTypes = '1' | '2' | '3' | '4' | '5';
+
+export type ContentType = {
   type: SlideTypes,
+  background: BackgroundTypes,
   heading?: string,
   paragraphs: Array<string>,
   attachment?: {
