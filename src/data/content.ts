@@ -15,7 +15,7 @@ export const CONTENTS: ContentsType = [
   },
   {
     type: 'about',
-    background: '5',
+    background: 'black',
     heading: TITLE,
     paragraphs: [LINE],
   },

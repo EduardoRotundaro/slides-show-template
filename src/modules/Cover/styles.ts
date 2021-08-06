@@ -8,4 +8,7 @@ export const Module = styled.div<PropsType>`
     min-height: 100vh;
     padding: 50px 0px;
   }
+  .heading {
+    padding-bottom: 30px;
+  }
 `;

@@ -1,18 +1,26 @@
 import { FC } from 'react';
 
-type PropsType = {
-  children: string,
-};
-
+import { ComponentPropsType } from './types';
 import { Heading2 } from './styles';
 
-const H2: FC<PropsType> = function (props) {
+const H2: FC<ComponentPropsType> = function (props) {
   const {
     children,
+    className,
+    align,
+    color,
+    font,
+    weight,
   } = props;
 
   return (
-    <Heading2>
+    <Heading2
+      className={className || ''}
+      align={align}
+      color={color}
+      font={font}
+      weight={weight}
+    >
       {children}
     </Heading2>
   );

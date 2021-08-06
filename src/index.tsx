@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components';
 
 import App from './App';
 
-import './base.scss';
+import './assets/sass/base.scss';
 
 import { THEME } from './data/config';
 

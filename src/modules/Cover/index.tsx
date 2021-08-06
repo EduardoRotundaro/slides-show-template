@@ -28,11 +28,13 @@ const Cover: FC<PropsType> = function (props) {
           <Row className="content" verticalAlignCenter>
             <Column className="popIn duration-500">
               <Row>
-                <Column>
-                  <H1>{CONTENT_NAME}</H1>
+                <Column className="heading">
+                  <H1 weight="heavy">{CONTENT_NAME}</H1>
                 </Column>
-                <Column>
-                  <P>{CONTENT_DATE}</P>
+                <Column className="date">
+                  <P size="small" weight="bold" color="white">
+                    {CONTENT_DATE}
+                  </P>
                 </Column>
               </Row>
             </Column>

@@ -28,7 +28,7 @@ export type ConstantType = string;
 
 type SlideTypes = 'about' | 'attachment' | 'chapter' | 'cover' | 'media' | 'plainText' | 'references' | 'summary' | 'thanks';
 
-type BackgroundTypes = '1' | '2' | '3' | '4' | '5';
+type BackgroundTypes = '1' | '2' | '3' | '4' | '5' | 'black' | 'white';
 
 export type ContentType = {
   type: SlideTypes,

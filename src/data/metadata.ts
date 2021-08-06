@@ -1,6 +1,6 @@
 import { ConstantType } from './types';
 
-export const AUTHOR: ConstantType = 'Eduardo Henrique Rotundaro';
+export const AUTHOR: ConstantType = 'Eduardo H. Rotundaro';
 
 export const AUTHOR_GITHUB: ConstantType = 'https://github.com/EduardoRotundaro';
 

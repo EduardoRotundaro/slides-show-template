@@ -1,21 +1,8 @@
 import styled from "styled-components";
 
-type ColorTypes = 'black' | 'white';
+import { ElementPropsType } from './types';
 
-type AlignTypes = 'center' | 'left' | 'right' | 'justify';
-
-type WeightTypes = 'lighter' | 'regular' | 'bold' | 'bolder' | 'heavy';
-
-type FontTypes = 'primary' | 'secondary';
-
-type PropsType = {
-  color?: ColorTypes,
-  align?: AlignTypes,
-  weight?: WeightTypes,
-  font?: FontTypes,
-};
-
-export const Heading1 = styled.h1<PropsType>`
+export const Heading1 = styled.h1<ElementPropsType>`
   font-family: ${props => {
     if (props.font === 'secondary') return props.theme.fonts.secondary;
     return props.theme.fonts.primary;

@@ -1,18 +1,28 @@
 import { FC } from 'react';
 
+import { ComponentPropsType } from './types';
 import { Paragraph } from './styles';
 
-type PropsType = {
-  children: string,
-};
-
-const P: FC<PropsType> = function (props) {
+const P: FC<ComponentPropsType> = function (props) {
   const {
     children,
+    className,
+    align,
+    color,
+    font,
+    size,
+    weight,
   } = props;
 
   return (
-    <Paragraph>
+    <Paragraph
+      className={className || ''}
+      align={align}
+      color={color}
+      font={font}
+      size={size}
+      weight={weight}
+    >
       {children}
     </Paragraph>
   );
