@@ -26,7 +26,7 @@ export type ComponentsThemeType = {
 
 export type ConstantType = string;
 
-type SlideTypes = 'about' | 'attachment' | 'chapter' | 'cover' | 'media' | 'plainText' | 'references' | 'summary' | 'thanks';
+type SlideTypes = 'about' | 'author' | 'attachment' | 'chapter' | 'cover' | 'media' | 'plainText' | 'references' | 'summary' | 'thanks';
 
 type BackgroundTypes = '1' | '2' | '3' | '4' | '5' | 'black' | 'white';
 

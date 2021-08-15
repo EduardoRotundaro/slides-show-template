@@ -6,6 +6,7 @@ import Section from './components/Section';
 import Container from './components/Container';
 import Content from './components/Content';
 import About from './pages/About';
+import Author from './pages/Author';
 import Attachments from './pages/Attachments';
 import Chapter from './pages/Chapter';
 import Cover from './pages/Cover';
@@ -26,6 +27,7 @@ const Page: FC<PropsType> = function (props) {
       <Container>
         <Content>
           {content.type === 'about' && <About content={content} />}
+          {content.type === 'author' && <Author content={content} />}
           {content.type === 'attachment' && <Attachments content={content} />}
           {content.type === 'chapter' && <Chapter content={content} />}
           {content.type === 'cover' && <Cover content={content} />}

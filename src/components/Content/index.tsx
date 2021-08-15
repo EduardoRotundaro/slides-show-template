@@ -6,7 +6,7 @@ const Content: ComponentType = function (props) {
 
   return (
     <ContentContainer>
-      <Block className="popIn duration-500">
+      <Block>
         {children}
       </Block>
     </ContentContainer>

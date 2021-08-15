@@ -18,7 +18,7 @@ type PropsType = {
 
 const Cover: FC<PropsType> = function (props) {
   return (
-    <Module>
+    <Module className="popIn duration-600">
       <Row>
         <Column className="heading">
           <H1 weight="heavy">{CONTENT_NAME}</H1>

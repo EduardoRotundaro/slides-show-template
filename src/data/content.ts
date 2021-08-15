@@ -12,10 +12,12 @@ export const CONTENTS: ContentsType = [
     background: '1',
   },
   {
+    type: 'author',
+    background: 'black',
+  },
+  {
     type: 'about',
     background: 'black',
-    heading: TITLE,
-    paragraphs: [LINE],
   },
   {
     type: 'summary',

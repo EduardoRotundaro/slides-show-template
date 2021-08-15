@@ -6,7 +6,7 @@ type WeightTypes = 'lighter' | 'regular' | 'bold' | 'bolder' | 'heavy';
 
 type FontTypes = 'primary' | 'secondary';
 
-type SizeTypes = 'small' | 'regular' | 'large';
+type SizeTypes = 'small' | 'regular' | 'large' | 'extra-large';
 
 export type ElementPropsType = {
   color?: ColorTypes,

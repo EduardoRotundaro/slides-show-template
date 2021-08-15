@@ -29,6 +29,7 @@ export const Paragraph = styled.p<ElementPropsType>`
     font-size: ${props => {
       if (props.size === 'small') return '1.6rem';
       if (props.size === 'large') return '2.2rem';
+      if (props.size === 'extra-large') return '2.6rem';
       return '1.9rem';
     }};
   }
