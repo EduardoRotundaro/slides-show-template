@@ -5,7 +5,6 @@ type PropsType = {
 };
 
 export const Container = styled.section<PropsType>`
-  min-height: 100vh;
   background: ${props => {
     if (props.background === '1') return props.theme.colors.theme1;
     if (props.background === '2') return props.theme.colors.theme2;

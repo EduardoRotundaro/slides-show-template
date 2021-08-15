@@ -34,10 +34,10 @@ export type ContentType = {
   type: SlideTypes,
   background: BackgroundTypes,
   heading?: string,
-  paragraphs: Array<string>,
+  paragraphs?: Array<string>,
   attachment?: {
-    image?: ReactNode,
-    width?: string,
+    image: ReactNode,
+    width: string,
   },
 };
 

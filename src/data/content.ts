@@ -10,8 +10,6 @@ export const CONTENTS: ContentsType = [
   {
     type: 'cover',
     background: '1',
-    heading: '',
-    paragraphs: [],
   },
   {
     type: 'about',
@@ -21,8 +19,48 @@ export const CONTENTS: ContentsType = [
   },
   {
     type: 'summary',
-    background: '3',
+    background: '5',
     heading: TITLE,
     paragraphs: [PARAGRAPH],
+  },
+  {
+    type: 'chapter',
+    background: '1',
+  },
+  {
+    type: 'plainText',
+    background: '4',
+  },
+  {
+    type: 'plainText',
+    background: '2',
+  },
+  {
+    type: 'chapter',
+    background: '3',
+  },
+  {
+    type: 'plainText',
+    background: '5',
+  },
+  {
+    type: 'plainText',
+    background: '1',
+  },
+  {
+    type: 'attachment',
+    background: '4',
+  },
+  {
+    type: 'media',
+    background: '2',
+  },
+  {
+    type: 'references',
+    background: '3',
+  },
+  {
+    type: 'thanks',
+    background: '5',
   },
 ];
