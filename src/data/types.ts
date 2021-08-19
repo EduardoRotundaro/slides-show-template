@@ -35,6 +35,10 @@ export type ContentType = {
   background: BackgroundTypes,
   heading?: string,
   paragraphs?: Array<string>,
+  summary?: Array<{
+    name: string,
+    chapterIndex: number,
+  }>,
   attachment?: {
     image: ReactNode,
     width: string,
